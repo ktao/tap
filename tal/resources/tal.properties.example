@@ -1,0 +1,51 @@
+# The configuration file for Twitter Analytics Language - Twinder implementation
+
+# the list of avaiable API keys for using 
+tal.apikey.opencalais.number=1
+tal.apikey.opencalais.1=xxxxxxxxxxxxxxxxxxxxxxxx
+tal.apikey.opencalais.2=
+tal.apikey.opencalais.3=
+tal.apikey.opencalais.4=
+tal.apikey.opencalais.5=
+tal.apikey.opencalais.6=
+#tal.apikey.opencalais.7=
+#tal.apikey.opencalais.8=
+#tal.apikey.opencalais.9=
+#tal.apikey.opencalais.10=
+
+# AlchemyAPI APIKEY
+tal.apikey.alchemy=your_own_key
+
+# Zemanta API KEY
+tal.apikey.zemanta=your_own_key
+
+# where do you want to store the index?
+tal.index.path=/path/to/index
+
+# Database
+# mongodb path
+tal.db.mongodb.dbpath=/path/to/running/mongodb
+# the host
+tal.db.mongodb.host=localhost
+# mongodb database
+tal.db.mongodb.database=dbname
+tal.db.mongodb.collection.tweet=collectionname
+
+# mysql
+tal.db.mysql.driver=com.mysql.jdbc.Driver
+tal.db.mysql.location=jdbc:mysql://localhost/twinder
+tal.db.mysql.username=mysql_username
+tal.db.mysql.password=mysql_password
+
+# cassandra
+tal.db.cassandra.location=127.0.0.1
+
+tal.resources.language.profiles=./resources/language-profiles
+
+# Twitter API key, token
+tal.twitter.api.consumerkey=your_consumer_key
+tal.twitter.api.consumersecret=your_consumer_secret
+tal.twitter.api.token=your_api_token
+tal.twitter.api.tokensecret=your_api_secret
+
+tal.resources.source.following=userid_lists_that_being_followed
